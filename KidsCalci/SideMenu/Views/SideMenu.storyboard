@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lTN-Sn-4Ou">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Side Menu View Controller-->
+        <scene sceneID="kFk-dt-oby">
+            <objects>
+                <viewController storyboardIdentifier="CustomSideMenuViewController" id="lTN-Sn-4Ou" customClass="CustomSideMenuViewController" customModule="KidsCalci" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RYu-BX-0Sd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="tFm-6f-lFV"/>
+                    </view>
+                    <connections>
+                        <segue destination="ebG-43-i1B" kind="custom" identifier="showHome" customClass="CenterContainmentSegue" customModule="SideMenuController" id="Pr4-pN-BFD"/>
+                        <segue destination="TT8-a0-LLI" kind="custom" identifier="containSideMenu" customClass="SideContainmentSegue" customModule="SideMenuController" id="1hP-O7-TDU"/>
+                        <segue destination="69b-af-xy1" kind="presentation" identifier="getSupport" id="sKU-bR-1Jg"/>
+                        <segue destination="f5j-oM-iAo" kind="presentation" identifier="showFeedback" id="0TN-Je-mft"/>
+                        <segue destination="tQC-Qg-cao" kind="presentation" identifier="showSeries" id="odH-4M-8mi"/>
+                        <segue destination="eLp-Jn-V3K" kind="presentation" identifier="openThemes" id="lOo-pg-SnO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hfa-Cw-4c7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-60" y="111"/>
+        </scene>
+        <!--ViewController-->
+        <scene sceneID="Wnp-kN-Zdb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ViewController" id="ebG-43-i1B" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxE-8g-awK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713" y="-152"/>
+        </scene>
+        <!--MenuItemsWithHeaderVC-->
+        <scene sceneID="G4n-xM-TaW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MenuItemsWithHeaderVC" id="TT8-a0-LLI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5cd-Ig-0bx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="760" y="-88"/>
+        </scene>
+        <!--GetSupportVC-->
+        <scene sceneID="3Qa-64-tZp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="GetSupportVC" id="69b-af-xy1" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ela-MJ-LyS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="708" y="-38"/>
+        </scene>
+        <!--FeedbackVC-->
+        <scene sceneID="Zxy-zU-yfX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FeedbackVC" id="f5j-oM-iAo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W3q-jL-DoP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="7"/>
+        </scene>
+        <!--ELSeriesVC-->
+        <scene sceneID="NoE-zX-pcS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ELSeriesVC" id="tQC-Qg-cao" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hf5-hk-ByD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724" y="52"/>
+        </scene>
+        <!--ThemeVC-->
+        <scene sceneID="ZWd-km-CTV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ThemeVC" id="eLp-Jn-V3K" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zGO-l1-eez" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="90"/>
+        </scene>
+    </scenes>
+</document>

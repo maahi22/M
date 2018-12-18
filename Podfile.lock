@@ -1,0 +1,137 @@
+PODS:
+  - Alamofire (4.5.1)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - Expression (0.12.9)
+  - Firebase/Core (5.0.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.0)
+  - Firebase/CoreOnly (5.0.0):
+    - FirebaseCore (= 5.0.0)
+  - Firebase/Crash (5.0.0):
+    - Firebase/Core
+    - FirebaseCrash (= 3.0.0)
+  - FirebaseAnalytics (5.0.0):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCrash (3.0.0):
+    - FirebaseAnalytics (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - Protobuf (~> 3.5)
+  - FirebaseInstanceID (3.0.0):
+    - FirebaseCore (~> 5.0)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - IQKeyboardManagerSwift (6.0.3)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Protobuf (3.5.0)
+  - ReachabilitySwift (4.1.0)
+  - Realm (3.5.0):
+    - Realm/Headers (= 3.5.0)
+  - Realm/Headers (3.5.0)
+  - RealmSwift (3.5.0):
+    - Realm (= 3.5.0)
+  - RNCryptor (5.0.3)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SideMenuController (0.2.4)
+  - SKActivityIndicatorView (0.1.0)
+  - SwiftTryCatch (0.0.1)
+  - SwiftyGif (4.1.0)
+  - SwiftyJSON (4.0.0)
+  - Swinject (2.4.0)
+  - Toast-Swift (3.0.1)
+  - Zip (1.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5.0)
+  - AlamofireImage
+  - Expression (~> 0.12)
+  - Firebase/Crash
+  - IQKeyboardManagerSwift
+  - ReachabilitySwift
+  - Realm
+  - RealmSwift
+  - RNCryptor (~> 5.0)
+  - SDWebImage (~> 4.0)
+  - SideMenuController
+  - SKActivityIndicatorView (~> 0.1.0)
+  - SwiftTryCatch
+  - SwiftyGif
+  - SwiftyJSON (~> 4.0.0)
+  - Swinject
+  - Toast-Swift (~> 3.0.1)
+  - Zip (~> 1.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Expression
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCrash
+    - FirebaseInstanceID
+    - GoogleToolboxForMac
+    - IQKeyboardManagerSwift
+    - nanopb
+    - Protobuf
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - RNCryptor
+    - SDWebImage
+    - SideMenuController
+    - SKActivityIndicatorView
+    - SwiftTryCatch
+    - SwiftyGif
+    - SwiftyJSON
+    - Swinject
+    - Toast-Swift
+    - Zip
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  Expression: 009720cde3259d5e39dc18f1d32504fa136b4a09
+  Firebase: 4bd804448ab2596794698773d41520a0af101e65
+  FirebaseAnalytics: 19812b49fa5f283dd6b23edf8a14b5d477029ab8
+  FirebaseCore: e46e4babb9de298fb2f736958edcc6da1dc60d73
+  FirebaseCrash: 8900571fd763fd5bdda04522ec53da979456e3ce
+  FirebaseInstanceID: 83e0040351565df711a5db3d8ebe5ea21aca998a
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  IQKeyboardManagerSwift: 04e8679f85e496bb2c474eeb9284052f1b3c391c
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
+  RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
+  RNCryptor: c93d19029dcf7ff160aca0f24d6c9e7b0d82f664
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SideMenuController: b463d2b3aa58e2afe57f57a07938fa9a647894ca
+  SKActivityIndicatorView: f46936f760d33eb8235333242269bf01cc9248ae
+  SwiftTryCatch: fb6d2b34abe48efd69578dac919293a44f95b481
+  SwiftyGif: d36c6dfb52e2ca1e48fe349d225f50ec4123ec85
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Swinject: a1364b0f66c2736bb03c1c7cab54809e16df25da
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  Zip: 8877eede3dda76bcac281225c20e71c25270774c
+
+PODFILE CHECKSUM: 15bf4bbb8fc5d7dabd5f8c9a7cf930fa08da1521
+
+COCOAPODS: 1.5.0

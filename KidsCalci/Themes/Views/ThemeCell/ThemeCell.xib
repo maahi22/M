@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Barlow-Light.ttf">
+            <string>Barlow-Light</string>
+        </array>
+        <array key="Barlow-Regular.otf">
+            <string>Barlow-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ThemeCell" customModule="KidsCalci" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="474" height="834"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="474" height="834"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Classroom" translatesAutoresizingMaskIntoConstraints="NO" id="S3X-7G-olx">
+                        <rect key="frame" x="8" y="20" width="461" height="749"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="13"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classroom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIC-D8-bwo">
+                        <rect key="frame" x="10" y="774" width="444" height="27.5"/>
+                        <fontDescription key="fontDescription" name="Barlow-Regular" family="Barlow" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnP-LU-ttr">
+                        <rect key="frame" x="10" y="801.5" width="444" height="27.5"/>
+                        <fontDescription key="fontDescription" name="Barlow-Light" family="Barlow" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfu-e1-ZnP">
+                        <rect key="frame" x="0.0" y="20" width="474" height="749"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="13"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Nen-US-gEa">
+                        <rect key="frame" x="218.5" y="408.5" width="37" height="37"/>
+                        <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </activityIndicatorView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="QIC-D8-bwo" firstAttribute="top" secondItem="S3X-7G-olx" secondAttribute="bottom" constant="5" id="6If-7w-xcb"/>
+                <constraint firstItem="Nen-US-gEa" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="7HF-zo-Zgg"/>
+                <constraint firstItem="S3X-7G-olx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="9Ry-IH-0oR"/>
+                <constraint firstAttribute="bottom" secondItem="SnP-LU-ttr" secondAttribute="bottom" constant="5" id="9lL-Pf-YsX"/>
+                <constraint firstItem="lfu-e1-ZnP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="Frg-oi-2dT"/>
+                <constraint firstAttribute="trailing" secondItem="SnP-LU-ttr" secondAttribute="trailing" constant="20" id="QD9-DD-kaB"/>
+                <constraint firstItem="Nen-US-gEa" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="TtF-R5-qdF"/>
+                <constraint firstItem="SnP-LU-ttr" firstAttribute="top" secondItem="QIC-D8-bwo" secondAttribute="bottom" id="U5s-ZI-p36"/>
+                <constraint firstAttribute="trailing" secondItem="QIC-D8-bwo" secondAttribute="trailing" constant="20" id="Yie-MU-OhN"/>
+                <constraint firstAttribute="bottom" secondItem="S3X-7G-olx" secondAttribute="bottom" constant="65" id="ZhG-Gd-eJg"/>
+                <constraint firstAttribute="trailing" secondItem="S3X-7G-olx" secondAttribute="trailing" constant="5" id="aVV-FC-R3Y"/>
+                <constraint firstItem="S3X-7G-olx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="aym-Ww-Oye"/>
+                <constraint firstAttribute="trailing" secondItem="lfu-e1-ZnP" secondAttribute="trailing" id="fru-j2-z8u"/>
+                <constraint firstItem="lfu-e1-ZnP" firstAttribute="height" secondItem="S3X-7G-olx" secondAttribute="height" id="hIg-5a-sZm"/>
+                <constraint firstItem="SnP-LU-ttr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="iDQ-UF-QJY"/>
+                <constraint firstItem="SnP-LU-ttr" firstAttribute="height" secondItem="QIC-D8-bwo" secondAttribute="height" id="igM-Qq-dU2"/>
+                <constraint firstItem="QIC-D8-bwo" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="ihv-Zb-DVV"/>
+                <constraint firstItem="lfu-e1-ZnP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="z8E-io-mJA"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="474" height="834"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="activityIndicator" destination="Nen-US-gEa" id="xwe-9d-Aep"/>
+                <outlet property="downloadView" destination="lfu-e1-ZnP" id="ud3-yG-1o5"/>
+                <outlet property="lblPrice" destination="SnP-LU-ttr" id="Pg8-NR-hEC"/>
+                <outlet property="themeImageView" destination="S3X-7G-olx" id="qMc-Pu-Wat"/>
+                <outlet property="themeName" destination="QIC-D8-bwo" id="lwE-Xa-CEV"/>
+            </connections>
+            <point key="canvasLocation" x="-80" y="206"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Classroom" width="375" height="667"/>
+    </resources>
+</document>
